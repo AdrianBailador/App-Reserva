@@ -1,0 +1,152 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context=".Principal"
+    style="@style/b"
+    android:layout_width="match_parent"
+    android:background="@drawable/fondo">
+
+    <TextView
+        android:layout_width="80dp"
+        android:layout_height="80dp"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="Hora"
+        android:id="@+id/textView5"
+        android:textColor="#ffec8605"
+        android:textSize="30sp"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_alignRight="@+id/home"
+        android:layout_alignEnd="@+id/home"
+        android:textStyle="bold" />
+
+    <Button
+        android:layout_width="80dp"
+        android:layout_height="70dp"
+        android:id="@+id/home"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:text="Iniciar sesion" />
+
+    <Button
+        android:layout_width="80dp"
+        android:layout_height="80dp"
+        android:id="@+id/hora13"
+        android:text="13:00"
+        android:layout_below="@+id/textView5"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
+
+    <Button
+        android:layout_width="80dp"
+        android:layout_height="80dp"
+        android:id="@+id/hora14"
+        android:text="14:00"
+        android:layout_below="@+id/textView5"
+        android:layout_alignRight="@+id/textView5"
+        android:layout_alignEnd="@+id/textView5" />
+
+    <Button
+        android:layout_width="80dp"
+        android:layout_height="80dp"
+        android:id="@+id/hora15"
+        android:text="15:00"
+        android:layout_above="@+id/textView30"
+        android:layout_alignRight="@+id/notas"
+        android:layout_alignEnd="@+id/notas"
+        android:layout_marginRight="19dp"
+        android:layout_marginEnd="19dp" />
+
+
+    <Button
+        android:layout_width="80dp"
+        android:layout_height="80dp"
+        android:id="@+id/hora21"
+        android:text="21:00"
+        android:layout_centerVertical="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
+
+    <Button
+        android:id="@+id/hora22"
+        android:layout_width="80dp"
+        android:layout_height="80dp"
+        android:layout_above="@+id/textView33"
+        android:layout_alignLeft="@+id/textView33"
+        android:layout_alignStart="@+id/textView33"
+        android:text="22:00" />
+
+    <Button
+        android:id="@+id/hora23"
+        android:layout_width="80dp"
+        android:layout_height="80dp"
+        android:layout_alignLeft="@+id/hora15"
+        android:layout_alignStart="@+id/hora15"
+        android:layout_centerVertical="true"
+        android:text="23:00" />
+
+    <ImageButton
+        android:layout_width="65dp"
+        android:layout_height="60dp"
+        android:id="@+id/notas"
+        android:background="@mipmap/notas"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text=""
+        android:id="@+id/textView29"
+        android:textColor="#ffb2b2a3"
+        android:layout_below="@+id/hora13"
+        android:layout_alignRight="@+id/hora13"
+        android:layout_alignEnd="@+id/hora13" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text=""
+        android:id="@+id/textView30"
+        android:textColor="#ffb2b2a3"
+        android:layout_below="@+id/hora14"
+        android:layout_alignLeft="@+id/textView33"
+        android:layout_alignStart="@+id/textView33" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text=""
+        android:id="@+id/textView31"
+        android:textColor="#ffb2b2a3"
+        android:layout_below="@+id/hora15"
+        android:layout_alignRight="@+id/hora15"
+        android:layout_alignEnd="@+id/hora15" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text=""
+        android:id="@+id/textView32"
+        android:textColor="#ffb2b2a3"
+        android:layout_below="@+id/hora21"
+        android:layout_alignRight="@+id/hora21"
+        android:layout_alignEnd="@+id/hora21" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text=""
+        android:id="@+id/textView33"
+        android:textColor="#ffb2b2a3"
+        android:layout_alignTop="@+id/textView32"
+        android:layout_alignLeft="@+id/home"
+        android:layout_alignStart="@+id/home" />
+
+</RelativeLayout>
